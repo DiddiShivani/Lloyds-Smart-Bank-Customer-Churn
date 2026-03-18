@@ -1,11 +1,11 @@
 # 🏦 Customer Churn Prediction - Smart Bank
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on predicting customer churn for a bank using machine learning techniques. The goal is to identify customers who are likely to leave the bank, enabling proactive retention strategies.
 
 ---
 
-## 🎯 Objective
+## Objective
 - Build a machine learning model to predict churn (Yes/No)
 - Handle imbalanced data effectively
 - Optimize model performance based on business needs (recall-focused)
@@ -13,13 +13,13 @@ This project focuses on predicting customer churn for a bank using machine learn
 
 ---
 
-## 📊 Dataset
+## Dataset
 - Multiple datasets merged using **Customer ID**
 - Feature engineering performed to capture customer behavior, transactions, and engagement
 
 ---
 
-## 🔧 Data Preprocessing
+## Data Preprocessing
 - Removed irrelevant columns ( Customer ID)
 - Handled missing values
 - Encoded categorical variables
@@ -29,14 +29,14 @@ This project focuses on predicting customer churn for a bank using machine learn
 
 ---
 
-## 🤖 Models Used
+## Models Used
 - Logistic Regression
 - Random Forest
 - Gradient Boosting
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 Metrics used:
 - Accuracy
 - Precision
@@ -44,27 +44,27 @@ Metrics used:
 - F1-score
 - ROC-AUC
 
-### 🔍 Key Insight
+### Key Insight
 - Accuracy was misleading due to class imbalance
 - **Logistic Regression performed best in identifying churners**
 
 ---
 
-## 🎯 Threshold Tuning
+## Threshold Tuning
 - Default threshold (0.5) was not optimal
 - Adjusted threshold to **0.4**
 - Improved **recall to ~85%**, enabling better churn detection
 
 ---
 
-## 📊 Results
+## Results
 - **Best Model:** Logistic Regression  
 - **Recall (Churn Class):** ~85%  
 - **ROC-AUC:** ~0.57  
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 - Identifies high-risk customers early
 - Enables targeted retention strategies
 - Reduces customer churn and revenue loss
